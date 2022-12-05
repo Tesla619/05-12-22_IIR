@@ -48,3 +48,14 @@ int main()
     while (1);
 
 }
+
+/*
+++ MbedOS Error Info ++
+Error Status: 0x80010133 Code: 307 Module: 1
+Error Message: Mutex: 0x200005E0, Not allowed in ISR context
+Location: 0x800AC45
+Error Value: 0x200005E0
+Current Thread: main Id: 0x20001C70 Entry: 0x80085AD StackSize: 0x1000 StackMem: 0x20000698 SP: 0x2009FEA4 
+For more info, visit: https://mbed.com/s/error?error=0x80010133&tgt=B_L4S5I_IOT01A
+-- MbedOS Error Info --
+*/
