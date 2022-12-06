@@ -1,8 +1,10 @@
 #include "mbed.h"
 
+//DOESN'T WORK EITHER DUE TO BAREMETAL OR MBEDIGNORE
+
 AnalogIn Ain(PC_5);
 AnalogOut Aout(PA_5);
-DigitalIn LPFswitch(PD_14);
+DigitalIn LPFswitch(PC_13);
 
 float data_in, data_out;
 
